@@ -1,0 +1,168 @@
+/* custom forms styles */
+.customForm-hidden {
+	display: block !important;
+	position: absolute !important;
+	left:-9999px !important;
+}
+/* custom checkbox styles */
+.chk-area {
+	margin: 0 3px 0 0;
+	float: left;
+	overflow: hidden;
+	height: 18px;
+	width: 17px;
+}
+.chk-area span {
+	background: url(../images/bg-checkbox.gif) no-repeat;
+	display: block;
+	width: 51px;
+	height: 36px;
+}
+.chk-focus span {
+	margin-left: -34px;
+}
+.chk-checked span {
+	margin-top: -18px;
+}
+.chk-disabled span {
+	margin-left: -17px;
+}
+.customForm-label-active,
+.chk-label-active {
+	font-weight: bold;
+}
+/* radio button styles */
+.rad-area {
+	margin: 0 3px 0 0;
+	float: left;
+	overflow: hidden;
+	height: 18px;
+	width: 17px;
+}
+.rad-area span {
+	background: url(../images/bg-radio.gif) no-repeat;
+	display: block;
+	width: 51px;
+	height: 36px;
+}
+.rad-focus span {
+	margin-left: -34px;
+}
+.rad-checked span {
+	margin-top: -18px;
+}
+.rad-disabled span {
+	margin-left: -17px;
+}
+/* custom select styles */
+.select-area {
+	display:inline-block;
+	vertical-align:top;
+	position: relative;
+	overflow: hidden;
+	margin:0;
+	height:70px;
+}
+.select-area .select-opener {
+	border-top:13px solid #3f3f3f;
+	border-left:12px solid transparent;
+	border-right:12px solid transparent;
+	position: absolute;
+	top:50%;
+	right:10px;
+	z-index:3;
+	margin:-4px 0 0;
+}
+.select-area .center {
+	background:#fff;
+	border:1px solid #363636;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	position: relative;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	cursor: default;
+	display: block;
+	font-size:32px;
+	line-height:38px;
+	text-align:center;
+	color:#1690d6;
+	padding:14px 35px 16px 10px;
+	z-index: 2;
+}
+.options-overflow div.drop-list {
+	overflow: auto;
+}
+.options-hidden {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+.select-options {
+	z-index: 3000;
+	position: absolute;
+	padding:2px 0;
+}
+.select-options .drop-holder {
+	background:#fff;
+	border: 1px solid #6c6c6c;
+	height: 1%;
+	-webkit-border-radius:5px;	-moz-border-radius:5px;	border-radius:5px;
+	overflow:hidden;
+}
+.select-options div.drop-list {
+	width: 100%;
+}
+.select-options ul {
+	overflow: hidden;
+	list-style: none;
+	width: 100%;
+	min-width:223px;
+	padding: 0;
+	margin: 0;
+	font-size:32px;
+	line-height:38px;
+	text-align:center;
+}
+.select-options ul li {
+	overflow: hidden;
+	float: left;
+	width: 100%;
+}
+.select-options ul a {
+	text-decoration: none;
+	cursor: default;
+	color: #403f3f;
+	display: block;
+	overflow: hidden;
+	height: 1%;
+	padding:14px 35px 16px 10px;
+}
+.select-options ul a span {
+	cursor: default;
+}
+.select-options .item-selected a {
+	text-decoration: none;
+	background: #b1e0ec;
+}
+.select-options ul a:hover {
+	text-decoration: none;
+}
+.select-options ul a:focus {
+	outline: none;
+}
+.select-options .optgroup strong{
+	cursor: default;
+	display: block;
+	width: 100%;
+}
+.select-options .optgroup strong em {
+	display: block;
+	padding: 5px;
+	height: 1%;
+}
+.select-options .optgroup ul a {
+	padding-left: 20px;
+}
