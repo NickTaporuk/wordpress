@@ -30,6 +30,8 @@
 	<?php wp_head(); ?>
     //добавим jquery
     <?php wp_enqueue_script('jquery');?>
+    //добавлю свои скрипты
+    <script src="<?php echo get_template_directory_uri(); ?>/js/landing/script.js"></script>
 </head>
 
 <body <?php body_class(); ?>>
