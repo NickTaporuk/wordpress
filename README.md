@@ -1,1 +1,1 @@
-разработаю лендинг 
+okrushinskyi_adv_theme
