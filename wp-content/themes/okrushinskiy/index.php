@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: nick
- * Date: 11.01.15
- * Time: 22:50
- */
-var_dump(the_category());
+//var_dump(the_category());
 ?>
 
 
