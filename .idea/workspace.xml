@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c821aa-5c2d-4026-8cde-d375a8f2c346" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/searchform.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img1.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img2.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img20.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img20.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img21.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img21.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img3.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img5.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img6.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img6.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img7.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img7.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img8.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img8.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/img/menu2-img9.png" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/images/menu2-img9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/sudovaya.php" afterPath="$PROJECT_DIR$/wp-content/themes/okrushinskiy/sudovaya.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/wordpress.conf" afterPath="$PROJECT_DIR$/config/wordpress.conf" />
     </list>
     <ignored path="wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="wordpress.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wordpress.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/wordpress.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
+            <state vertical-scroll-proportion="0.0892562" vertical-offset="0" max-vertical-offset="720">
               <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
@@ -63,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/okrushinskiy/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16061185" vertical-offset="3408" max-vertical-offset="7452">
+            <state vertical-scroll-proportion="-1.0243902" vertical-offset="3408" max-vertical-offset="7452">
               <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding />
             </state>
@@ -149,13 +133,13 @@
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/footer.php" />
-        <option value="$PROJECT_DIR$/config/wordpress.conf" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/sudovaya.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/searchform.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/okrushinskiy/index.php" />
+        <option value="$PROJECT_DIR$/config/wordpress.conf" />
       </list>
     </option>
   </component>
@@ -773,14 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/wordpress.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/okrushinskiy/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="450">
@@ -837,8 +813,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/okrushinskiy/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16061185" vertical-offset="3408" max-vertical-offset="7452">
+        <state vertical-scroll-proportion="-1.0243902" vertical-offset="3408" max-vertical-offset="7452">
           <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wordpress.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0892562" vertical-offset="0" max-vertical-offset="720">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
