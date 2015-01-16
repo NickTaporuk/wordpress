@@ -166,25 +166,25 @@
                 <div class="menu2-block2">
                     <ol>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img1.png"  alt="" /></div><a href="/ru/praktik/getPraktik/ma">M&A</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img1.png"  alt="" /></div><a href="/sudovaya">M&A</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img5.png"  alt="" /></div><a href="/ru/praktik/getPraktik/agrarnoe">Аграрное и земельное право</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img5.png"  alt="" /></div><a href="/">Аграрное и земельное право</a></li>
 
-                        <li class="nonactive"><div class="item2"><img src="/wp-content/uploads/2015/01/menu2-img3.png" align="bottom"  alt="" /></div><a href="/ru/praktik/getPraktik/sudovaya">Судебная практика</a></li>
+                        <li class="nonactive"><div class="item2"><img src="/wp-content/uploads/2015/01/menu2-img3.png" align="bottom"  alt="" /></div><a href="/sudovaya">Судебная практика</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img7.png"  alt="" /></div><a href="/ru/praktik/getPraktik/podatki">Налоги</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img7.png"  alt="" /></div><a href="/podatki">Налоги</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img20.png" align="bottom"  alt="" /></div><a href="/ru/praktik/getPraktik/bankruptcy">Банкротство и реструктуризация</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img20.png" align="bottom"  alt="" /></div><a href="/bankruptcy">Банкротство и реструктуризация</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img21.png"  alt="" /></div><a href="/ru/praktik/getPraktik/nedvigimost">Недвижимость и строительство</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img21.png"  alt="" /></div><a href="/nedvigimost">Недвижимость и строительство</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img6.png"  alt="" /></div><a href="/ru/praktik/getPraktik/bumagi">Ценные бумаги и управление активами</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img6.png"  alt="" /></div><a href="/bumagi">Ценные бумаги и управление активами</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img9.png"  alt="" /></div><a href="/ru/praktik/getPraktik/europe">Международное и европейское право</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img9.png"  alt="" /></div><a href="/europe">Международное и европейское право</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img2.png"  alt="" /></div><a href="/ru/praktik/getPraktik/korporativnoe_pravo">Корпоративное и коммерческое право</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img2.png"  alt="" /></div><a href="/korporativnoe_pravo">Корпоративное и коммерческое право</a></li>
 
-                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img8.png"  alt="" /></div><a href="/ru/praktik/getPraktik/trudovoe">Трудовое право</a></li>
+                        <li class="nonactive"><div class="item1"><img src="/wp-content/uploads/2015/01/menu2-img8.png"  alt="" /></div><a href="/trudovoe">Трудовое право</a></li>
 
 
                     </ol>
