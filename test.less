@@ -1,0 +1,23 @@
+// Variables
+@mySelector: banner_tuesdays;
+
+// Usage
+.@{mySelector}Nick {
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0 auto;
+  .clearfix {
+    display: block;
+    zoom: 1;
+
+    &:after {
+      content: " ";
+      display: block;
+      font-size: 0;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+  }
+}
+
