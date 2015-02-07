@@ -1,0 +1,17 @@
+.banner_tuesdaysNick {
+  font-weight: bold;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.banner_tuesdaysNick .clearfix {
+  display: block;
+  zoom: 1;
+}
+.banner_tuesdaysNick .clearfix:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
