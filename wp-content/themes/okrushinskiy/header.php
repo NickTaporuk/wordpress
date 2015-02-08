@@ -136,34 +136,42 @@
             </div>
         </div>
         <div id="title">
-            тут меню :
-            <script language="javascript" type="text/javascript">
-                /*
-                 var flash = AC_FL_RunContent(
-                 'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-                 'width', '100%',
-                 'height', '78',
-                 'src', 'http://www.cpk.ua/templates/default/swf/title',
-                 'quality', 'high',
-                 'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-                 'align', 'left',
-                 'play', 'true',
-                 'loop', 'true',
-                 'scale', 'noscale',
-                 'wmode', 'transparent',
-                 'devicefont', 'false',
-                 'id', 'logo-',
-                 'bgcolor', '#000000',
-                 'name', 'logo-',
-                 'menu', 'false',
-                 'allowFullScreen', 'false',
-                 'allowScriptAccess', 'sameDomain',
-                 'movie', 'http://www.cpk.ua/templates/default/swf/title',
-                 'FlashVars', 'title_img=' + encodeURIComponent('Центр правового консалтинга')
-                 );
-                 document.write(flash); //end AC code
-                 */
-            </script>
+            <style>
+                .clearfix {
+                    display: block;
+                    zoom: 1;
+
+                }
+                .clearfix:after {
+                     content: " ";
+                     display: block;
+                     font-size: 0;
+                     height: 0;
+                     clear: both;
+                     visibility: hidden;
+                 }
+                .menu-nav{
+                    margin-top:-35px;
+                }
+                .menu-nav .menu-nav-content{
+                    width: 100px;
+                    float: left;
+                    cursor:pointer;
+                    margin-left: 10px;
+                }
+            </style>
+                    <ul class="menu-nav clearfix">
+<!--                        li.menu-nav-content*8-->
+                        <li class="menu-nav-content"><a href="/?page_id=39">БУХГАЛТЕРСЬКІ ПОСЛУГИ</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=41">СУДОВА ПРАКТИКА</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=43">РЕГІСТРАЦІЯ,<BR/>РЕОРГАНІЗАЦІЯ,<BR/>ЛІКВІДАЦІЯ БІЗНЕСУ</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=45">ІНТЕЛЕКТУАЛЬН ВЛАСНІСТЬ</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=47">НЕРУХОМІСТЬ,<BR/>БУДІВНИЦТВО<BR/> ТА ЗЕМЕЛЬНЕ ПРАВО</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=49">АПОСТІЛЬ,<BR/> ЛЕГАЛІЗАЦІЯ ДОКУМЕНТІВ</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=51">ДОВІДКИ, <BR/>ВИТЯГИ ТА ІНШ.</a></li>
+                        <li class="menu-nav-content"><a href="/?page_id=53">ЛІЦЕНЗІЇ.<BR/> СЕРТИФІКАТИ,<BR/> ДОЗВОЛИ</a></li>
+                        <div class="clearfix"></div>
+                    </ul>
         </div>
         <div id="langs">
             <a href="http://www.cpk.ua/en/">Eng</a>
