@@ -1,8 +1,7 @@
 <div id="mainmenu">
     <ul class="menu">
         <li class="level-1" id="menuitem-161">
-            <a href="/" class="level-1-link" id="i161"
-               onclick="jQuery('#sub-i161').slideToggle(); return false;">Компания</a>
+            <a href="/?page_id=16" class="level-1-link" id="i161">Компания</a>
             <!--<ul class="submenu" id="sub-i161" style="display: none;">
                 <li class="level-2" id="menuitem-164">
                     <a href="http://www.cpk.ua/ru/page/164/">О нас</a>
@@ -22,8 +21,7 @@
             </ul>-->
         </li>
         <li class="level-1" id="menuitem-242">
-            <a href="/" class="level-1-link" id="i242"
-               onclick="jQuery('#sub-i242').slideToggle(); return false;">Услуги</a>
+            <a href="/" class="level-1-link" id="i242">Услуги</a>
             <!--<ul class="submenu" id="sub-i242" style="display: none;">
                 <li class="level-2" id="menuitem-254">
                     <a href="http://www.cpk.ua/ru/activities/">Юридические услуги</a>
@@ -100,7 +98,7 @@
         </li>
         <li class="level-1" id="menuitem-187">
             <a href="/" class="level-1-link" id="i187"
-               onclick="jQuery('#sub-i187').slideToggle(); return false;">Контакти</a>
+               >Контакти</a>
             <!--<ul class="submenu" id="sub-i187" style="display: none;">
                 <li class="level-2" id="menuitem-191">
                     <a href="http://www.cpk.ua/ru/clients/">Клиенты</a>
@@ -112,7 +110,7 @@
         </li>
         <!--<li class="level-1" id="menuitem-220">
             <a href="" class="level-1-link" id="i220"
-               onclick="jQuery('#sub-i220').slideToggle(); return false;">Публикации</a>
+               >Публикации</a>
             <ul class="submenu" id="sub-i220" style="display: none;">
                 <li class="level-2" id="menuitem-227">
                     <a href="http://www.cpk.ua/ru/publications/articles/">Статьи</a>

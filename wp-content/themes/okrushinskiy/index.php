@@ -408,7 +408,6 @@
 <!--</body>-->
 <!--</html>-->
 <?php get_header();?>
-
 <div id="envelope">
     <script language="javascript" type="text/javascript">
         if (jQuery(document).width() >= 1300)
@@ -436,6 +435,7 @@
         </div>
         <div id="title">
             <script language="javascript" type="text/javascript">
+/*
                 var flash = AC_FL_RunContent(
                     'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
                     'width', '100%',
@@ -459,6 +459,7 @@
                     'FlashVars', 'title_img=' + encodeURIComponent('Центр правового консалтинга')
                 );
                 document.write(flash); //end AC code
+*/
             </script>
         </div>
         <div id="langs">
@@ -556,7 +557,7 @@
                     <div id="banner"></div>
                     <div id="belowbanner">
                         <div id="palm">
-                            <script language="javascript" type="text/javascript">
+<!--                            <script language="javascript" type="text/javascript">
                                 var flash = AC_FL_RunContent(
                                     'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
                                     'width', '85',
@@ -579,7 +580,7 @@
                                     'movie', 'http://www.cpk.ua/templates/default/swf/palm'
                                 );
                                 document.write(flash); //end AC code
-                            </script>
+-->                            </script>
                         </div>
                     </div>
                     <div id="search">

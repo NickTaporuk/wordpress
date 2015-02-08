@@ -1,0 +1,10 @@
+
+#content {
+	padding: 0;
+	margin: 6px 0 0 -1px;
+}
+
+.sidebar-right {
+	float: right;
+	margin-right: -6px;
+}

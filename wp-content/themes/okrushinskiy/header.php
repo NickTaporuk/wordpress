@@ -103,12 +103,12 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.cpk.ua/ru/news/rss.xml"/>
 
     <!-- scripts -->
-    <script type="text/javascript" src="http://www.cpk.ua/js/AC_RunActiveContent.js"></script>
+<!--    <script type="text/javascript" src="http://www.cpk.ua/js/AC_RunActiveContent.js"></script>-->
     <script type="text/javascript" src="http://www.cpk.ua/js/jquery.js"></script>
     <script type="text/javascript" src="http://www.cpk.ua/js/jquery/jquery.ifixpng2.js"></script>
     <script type="text/javascript" src="http://www.cpk.ua/js/jquery/jquery.colorbox.js"></script>
     <script language="javascript" type="text/javascript">
-        function openLink(id) {
+        /*function openLink(id) {
             jQuery('#sub-' + id).slideToggle();
         }
         function drawButton(id, title, link, css) {
@@ -211,12 +211,12 @@
                 jQuery('#envelope').css('width', '1024px');
 
             }
-            /*		else
-             jQuery('#envelope').css('width',jQuery(document).width() - 10);*/
-        }
+            *//*		else
+             jQuery('#envelope').css('width',jQuery(document).width() - 10);*//*
+        }*/
     </script>
     <script language="javascript" type="text/javascript">
-        var resizeTimer = null;
+        /*var resizeTimer = null;
         jQuery.noConflict();
         jQuery(document).ready(function ($) {
             $.ifixpng('http://www.cpk.ua/templates/default/images/pixel.gif');
@@ -229,23 +229,23 @@
                         return false;
                     });
                 });
-            }
+            }*/
 //		$('.more a, .mainmore a').each(function() {
 //			jQuery(this).html(drawButton($(this).attr('id'),$(this).html(),$(this).attr('href'),'more'));
 //		});
-        });
+        /*});
         jQuery(window).resize(function () {
             if (resizeTimer)
                 clearTimeout(resizeTimer);
             resizeTimer = setTimeout(resizeWindow, 100);
-        });
+        });*/
     </script>
 
     <!-- xajax -->
 
     <script type="text/javascript" charset="UTF-8">
         /* <![CDATA[ */
-        try {
+        /*try {
             if (undefined == xajax.config) xajax.config = {};
         } catch (e) {
             xajax = {};
@@ -258,13 +258,13 @@
         xajax.config.version = "xajax 0.5 rc2";
         xajax.config.legacy = false;
         xajax.config.defaultMode = "asynchronous";
-        xajax.config.defaultMethod = "POST";
+        xajax.config.defaultMethod = "POST";*/
         /* ]]> */
     </script>
     <script type="text/javascript" src="http://www.cpk.ua//Lib/xAjax/xajax_js/xajax_core.js" charset="UTF-8"></script>
     <script type="text/javascript" charset="UTF-8">
         /* <![CDATA[ */
-        window.setTimeout(
+        /*window.setTimeout(
             function () {
                 var scriptExists = false;
                 try {
@@ -275,13 +275,13 @@
                 if (!scriptExists) {
                     alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: http://www.cpk.ua//Lib/xAjax/xajax_js/xajax_core.js");
                 }
-            }, 2000);
+            }, 2000);*/
         /* ]]> */
     </script>
 
     <script type='text/javascript' charset='UTF-8'>
         /* <![CDATA[ */
-        xajax_loadModule = function () {
+        /*xajax_loadModule = function () {
             return xajax.request({xjxfun: 'loadModule'}, {parameters: arguments});
         };
         xajax_getNewsPage = function () {
@@ -316,7 +316,7 @@
         };
         xajax_getTipsPage = function () {
             return xajax.request({xjxfun: 'getTipsPage'}, {parameters: arguments});
-        };
+        };*/
         /* ]]> */
     </script>
     <?php wp_head(); ?>
