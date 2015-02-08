@@ -81,7 +81,7 @@
 <!--    <link rel="pingback" href="--><?php //bloginfo('pingback_url'); ?><!--" />-->
 <!--    --><?php //wp_head(); ?>
 <!--</head>-->
-<!--<body --><?php //body_class(); ?><!-->-->
+<!--<body --><?php //body_class(); ?><!-->
 
 
 <!---->
@@ -99,228 +99,79 @@
     <link rel="icon" type="image/x-icon" href="http://www.cpk.ua/favicon.ico">
     <link rel="shortcut icon" type="image/x-icon" href="http://www.cpk.ua/favicon.ico">
     <link rel="stylesheet" type="text/css" href="http://www.cpk.ua/templates/default/CSS/style.css">
-    <link rel="stylesheet" type="text/css" href="http://www.cpk.ua/templates/default/CSS/colorbox.css">
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.cpk.ua/ru/news/rss.xml"/>
+<!--    <link rel="stylesheet" type="text/css" href="http://www.cpk.ua/templates/default/CSS/colorbox.css">-->
+<!--    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="http://www.cpk.ua/ru/news/rss.xml"/>-->
 
     <!-- scripts -->
 <!--    <script type="text/javascript" src="http://www.cpk.ua/js/AC_RunActiveContent.js"></script>-->
     <script type="text/javascript" src="http://www.cpk.ua/js/jquery.js"></script>
     <script type="text/javascript" src="http://www.cpk.ua/js/jquery/jquery.ifixpng2.js"></script>
     <script type="text/javascript" src="http://www.cpk.ua/js/jquery/jquery.colorbox.js"></script>
-    <script language="javascript" type="text/javascript">
-        /*function openLink(id) {
-            jQuery('#sub-' + id).slideToggle();
-        }
-        function drawButton(id, title, link, css) {
-//		{$item.title|escape:"javascript":"UTF-8"}
-//		alert(title.length);
-            height = (title.length <= 29) ? 20 : 40;
-            vars = 'css=' + encodeURIComponent('http://www.cpk.ua/templates/default/my.css') + '&title_txt=' + encodeURIComponent('<p class="' + css + '">' + title + '</p>') + '&url_link=';
-            if (link != '')
-                vars += encodeURIComponent(link) + '&my=0';
-            else
-                vars += 'openLink(&quot;' + id + '&quot;)&my=1';
-//			vars += 'alert&my=1';
-            flash = AC_FL_RunContent(//
-                'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-                'width', '100%',
-                'height', height,
-                'src', 'http://www.cpk.ua/templates/default/swf/lcc',
-                'quality', 'high',
-                'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-                'align', 'middle',
-                'play', 'true',
-                'loop', 'true',
-                'scale', 'noscale',
-                'wmode', 'opaque',
-                'devicefont', 'false',
-                'id', 'button-' + id,
-                'bgcolor', '#fff1d0',
-                'name', 'button-' + id,
-                'menu', 'false',
-                'allowFullScreen', 'false',
-                'allowScriptAccess', 'sameDomain',
-                'movie', 'http://www.cpk.ua/templates/default/swf/lcc',
-                'FlashVars', vars
-            ); //end AC code
-//		alert(flash);
-            return flash;
-        }
-        function drawLogo(img, link) {
-            var flash = AC_FL_RunContent(
-                'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-                'width', '260',
-                'height', '220',
-                'src', 'http://www.cpk.ua/templates/default/swf/card',
-                'quality', 'high',
-                'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-                'align', 'middle',
-                'play', 'true',
-                'loop', 'true',
-                'scale', 'noscale',
-                'wmode', 'transparent',
-                'devicefont', 'false',
-                'id', 'logo-',
-                'bgcolor', '#000000',
-                'name', 'logo-',
-                'menu', 'false',
-                'allowFullScreen', 'false',
-                'allowScriptAccess', 'sameDomain',
-                'movie', 'http://www.cpk.ua/templates/default/swf/card',
-                'FlashVars', 'img_link=' + encodeURIComponent(img) + '&link_link=' + encodeURIComponent(link)
-            );
-            document.write(flash); //end AC code
-        }
-        function drawPlayer(link) {
-            var flash = AC_FL_RunContent(
-                'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-                'width', '640',
-                'height', '443',
-                'src', 'http://www.cpk.ua/templates/default/swf/videoplayer',
-                'quality', 'high',
-                'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-                'align', 'middle',
-                'play', 'true',
-                'loop', 'true',
-                'scale', 'noscale',
-                'wmode', 'transparent',
-                'devicefont', 'false',
-                'id', 'videoplayer-',
-                'bgcolor', '#000000',
-                'name', 'videoplayer-',
-                'menu', 'false',
-                'allowFullScreen', 'true',
-                'allowScriptAccess', 'sameDomain',
-                'movie', 'http://www.cpk.ua/templates/default/swf/videoplayer',
-                'FlashVars', 'link=' + encodeURIComponent(link)
-            );
-            return (flash); //end AC code
-        }
-        function fixpng() {
-            jQuery("img.pngfix, #title, .pages .general, .subtitle, .thumb").ifixpng();
-        }
-        function showCode(id) {
-            jQuery('#video-' + id).find('.code').show();
-            jQuery.colorbox.resize();
-        }
-        function resizeWindow() {
-            if (jQuery(document).width() >= 1289 && jQuery('#envelope').css('width') != 1279) {
-                jQuery('#envelope').css('width', '1279px');
-
-            } else if (jQuery(document).width() < 1289 && jQuery('#envelope').css('width') != 1024) {
-                jQuery('#envelope').css('width', '1024px');
-
-            }
-            *//*		else
-             jQuery('#envelope').css('width',jQuery(document).width() - 10);*//*
-        }*/
-    </script>
-    <script language="javascript" type="text/javascript">
-        /*var resizeTimer = null;
-        jQuery.noConflict();
-        jQuery(document).ready(function ($) {
-            $.ifixpng('http://www.cpk.ua/templates/default/images/pixel.gif');
-            fixpng();
-            if (!($.browser.opera && $.browser.version < 9)) {
-                $('.level-1-link').each(function () {
-                    jQuery(this).attr('onclick', '');
-                    jQuery(this).html(drawButton($(this).attr('id'), $(this).html(), $(this).attr('href'), ''));
-                    jQuery(this).click(function () {
-                        return false;
-                    });
-                });
-            }*/
-//		$('.more a, .mainmore a').each(function() {
-//			jQuery(this).html(drawButton($(this).attr('id'),$(this).html(),$(this).attr('href'),'more'));
-//		});
-        /*});
-        jQuery(window).resize(function () {
-            if (resizeTimer)
-                clearTimeout(resizeTimer);
-            resizeTimer = setTimeout(resizeWindow, 100);
-        });*/
-    </script>
-
-    <!-- xajax -->
-
-    <script type="text/javascript" charset="UTF-8">
-        /* <![CDATA[ */
-        /*try {
-            if (undefined == xajax.config) xajax.config = {};
-        } catch (e) {
-            xajax = {};
-            xajax.config = {};
-        }
-        ;
-        xajax.config.requestURI = "http://www.cpk.ua/ru/?m=home&lang=ru";
-        xajax.config.statusMessages = true;
-        xajax.config.waitCursor = true;
-        xajax.config.version = "xajax 0.5 rc2";
-        xajax.config.legacy = false;
-        xajax.config.defaultMode = "asynchronous";
-        xajax.config.defaultMethod = "POST";*/
-        /* ]]> */
-    </script>
-    <script type="text/javascript" src="http://www.cpk.ua//Lib/xAjax/xajax_js/xajax_core.js" charset="UTF-8"></script>
-    <script type="text/javascript" charset="UTF-8">
-        /* <![CDATA[ */
-        /*window.setTimeout(
-            function () {
-                var scriptExists = false;
-                try {
-                    if (xajax.isLoaded) scriptExists = true;
-                }
-                catch (e) {
-                }
-                if (!scriptExists) {
-                    alert("Error: the xajax Javascript component could not be included. Perhaps the URL is incorrect?\nURL: http://www.cpk.ua//Lib/xAjax/xajax_js/xajax_core.js");
-                }
-            }, 2000);*/
-        /* ]]> */
-    </script>
-
-    <script type='text/javascript' charset='UTF-8'>
-        /* <![CDATA[ */
-        /*xajax_loadModule = function () {
-            return xajax.request({xjxfun: 'loadModule'}, {parameters: arguments});
-        };
-        xajax_getNewsPage = function () {
-            return xajax.request({xjxfun: 'getNewsPage'}, {parameters: arguments});
-        };
-        xajax_getNewsletterPage = function () {
-            return xajax.request({xjxfun: 'getNewsletterPage'}, {parameters: arguments});
-        };
-        xajax_getRecognitionPage = function () {
-            return xajax.request({xjxfun: 'getRecognitionPage'}, {parameters: arguments});
-        };
-        xajax_getProjectsPage = function () {
-            return xajax.request({xjxfun: 'getProjectsPage'}, {parameters: arguments});
-        };
-        xajax_getPeoplePage = function () {
-            return xajax.request({xjxfun: 'getPeoplePage'}, {parameters: arguments});
-        };
-        xajax_sendLetter = function () {
-            return xajax.request({xjxfun: 'sendLetter'}, {parameters: arguments});
-        };
-        xajax_getFeedbackPage = function () {
-            return xajax.request({xjxfun: 'getFeedbackPage'}, {parameters: arguments});
-        };
-        xajax_getPublicationsPage = function () {
-            return xajax.request({xjxfun: 'getPublicationsPage'}, {parameters: arguments});
-        };
-        xajax_getVideoPage = function () {
-            return xajax.request({xjxfun: 'getVideoPage'}, {parameters: arguments});
-        };
-        xajax_getPressPage = function () {
-            return xajax.request({xjxfun: 'getPressPage'}, {parameters: arguments});
-        };
-        xajax_getTipsPage = function () {
-            return xajax.request({xjxfun: 'getTipsPage'}, {parameters: arguments});
-        };*/
-        /* ]]> */
-    </script>
     <?php wp_head(); ?>
 </head>
 <body>
+<div id="envelope">
+    <script language="javascript" type="text/javascript">
+        if (jQuery(document).width() >= 1300)
+            jQuery('#envelope').css('width', '1279px');
+    </script>
+
+    <div id="head">
+        <div id="toplinks">
+            <a href="http://www.cpk.ua/ru/"><img src="http://www.cpk.ua/templates/default/images/home.png" alt=""
+                                                 width="19" height="19"></a>
+            <a href="http://www.cpk.ua/ru/search/"><img src="http://www.cpk.ua/templates/default/images/search.png"
+                                                        alt="" width="19" height="19"></a>
+            <a href="http://www.cpk.ua/ru/contacts/"><img src="http://www.cpk.ua/templates/default/images/contacts.png"
+                                                          alt="" width="19" height="19"></a>
+            <a href="http://www.cpk.ua/ru/sitemap/"><img src="http://www.cpk.ua/templates/default/images/sitemap.png"
+                                                         alt="" width="19" height="19"></a>
+        </div>
+        <div id="logo"><a href="/"><img src="http://www.cpk.ua/templates/default/images/logo.png"
+                                                            alt="Центр правового консалтинга (ЦПК) | Юристы и Адвокаты в Киеве"
+                                                            width="281" height="157"></a></div>
+        <div valign="right" style="position:absolute; top:0; right:0; width:0%; z-index:1;">
+            <div style="margin:68px 50px 0 -180px; z-index:2;"><a href="http://www.cpk.ua/ru/contacts/"><img
+                        src="http://www.cpk.ua/templates/default/images/contact.png" alt="" width="167" height="82"></a>
+            </div>
+        </div>
+        <div id="title">
+            тут меню :
+            <script language="javascript" type="text/javascript">
+                /*
+                 var flash = AC_FL_RunContent(
+                 'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
+                 'width', '100%',
+                 'height', '78',
+                 'src', 'http://www.cpk.ua/templates/default/swf/title',
+                 'quality', 'high',
+                 'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
+                 'align', 'left',
+                 'play', 'true',
+                 'loop', 'true',
+                 'scale', 'noscale',
+                 'wmode', 'transparent',
+                 'devicefont', 'false',
+                 'id', 'logo-',
+                 'bgcolor', '#000000',
+                 'name', 'logo-',
+                 'menu', 'false',
+                 'allowFullScreen', 'false',
+                 'allowScriptAccess', 'sameDomain',
+                 'movie', 'http://www.cpk.ua/templates/default/swf/title',
+                 'FlashVars', 'title_img=' + encodeURIComponent('Центр правового консалтинга')
+                 );
+                 document.write(flash); //end AC code
+                 */
+            </script>
+        </div>
+        <div id="langs">
+            <a href="http://www.cpk.ua/en/">Eng</a>
+            <a href="http://www.cpk.ua/fr/">Fr</a>
+            <a href="http://www.cpk.ua/pl/">Pl</a>
+            <a href="http://www.cpk.ua/ru/" class="active">Рус</a>
+            <a href="http://www.cpk.ua/uk/">Укр</a>
+        </div>
+    </div>
 
 <!---->

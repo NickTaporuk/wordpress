@@ -1,7 +1,7 @@
 <div id="mainmenu">
     <ul class="menu">
         <li class="level-1" id="menuitem-161">
-            <a href="/?page_id=16" class="level-1-link" id="i161">Компания</a>
+            <a href="/?page_id=16" class="level-1-link" id="i161"> О компании</a>
             <!--<ul class="submenu" id="sub-i161" style="display: none;">
                 <li class="level-2" id="menuitem-164">
                     <a href="http://www.cpk.ua/ru/page/164/">О нас</a>
@@ -21,7 +21,7 @@
             </ul>-->
         </li>
         <li class="level-1" id="menuitem-242">
-            <a href="/" class="level-1-link" id="i242">Услуги</a>
+            <a href="/?page_id=18" class="level-1-link" id="i242">Услуги</a>
             <!--<ul class="submenu" id="sub-i242" style="display: none;">
                 <li class="level-2" id="menuitem-254">
                     <a href="http://www.cpk.ua/ru/activities/">Юридические услуги</a>
@@ -36,7 +36,7 @@
             </ul>-->
         </li>
         <li class="level-1" id="menuitem-234">
-            <a href="/" class="level-1-link" id="i234">Фахівці</a>
+            <a href="/?page_id=20" class="level-1-link" id="i234">Фахівці</a>
             <!--<ul class="submenu" id="sub-i234" style="display: none;">
                 <li class="level-2" id="menuitem-">
                     <a href="http://www.cpk.ua/ru/tips/3/">Корпоративное управление</a>
@@ -53,7 +53,7 @@
             </ul>-->
         </li>
         <li class="level-1" id="menuitem-174">
-            <a href="/" class="level-1-link" id="i174">Ціни</a>
+            <a href="/?page_id=25" class="level-1-link" id="i174">Ціни</a>
             <!--<ul class="submenu" id="sub-i174" style="display: none;">
                 <li class="level-2" id="menuitem-">
                     <a href="?from=2015">2015</a>
@@ -79,7 +79,7 @@
             </ul>-->
         </li>
         <li class="level-1" id="menuitem-175">
-            <a href="/" class="level-1-link" id="i175">Корисні посилання</a>
+            <a href="/?page_id=27" class="level-1-link" id="i175">Корисні посилання</a>
             <!--<ul class="submenu" id="sub-i175" style="display: none;">
                 <li class="level-2" id="menuitem-">
                     <a href="http://www.cpk.ua/ru/projects/1/" class="high">M&amp;A, Due Diligence,
@@ -97,7 +97,7 @@
             </ul>-->
         </li>
         <li class="level-1" id="menuitem-187">
-            <a href="/" class="level-1-link" id="i187"
+            <a href="/?page_id=29" class="level-1-link" id="i187"
                >Контакти</a>
             <!--<ul class="submenu" id="sub-i187" style="display: none;">
                 <li class="level-2" id="menuitem-191">

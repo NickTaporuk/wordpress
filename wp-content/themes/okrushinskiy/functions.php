@@ -18,3 +18,30 @@ function enqueue_scripts () {
     wp_enqueue_script('html5-shim');
 }
 add_action('wp_enqueue_scripts', 'enqueue_scripts');*/
+
+if ( function_exists( 'register_nav_menus' ) )
+{
+    register_nav_menus(
+        array(
+            'custom-menu'=>__('Custom menu'),
+        )
+    );
+}
+
+function custom_menu(){
+    echo '<ul>';
+    wp_list_pages('title_li=&');
+    echo '</ul>';
+}
+
+if ( function_exists('register_sidebar') ) {
+
+    register_sidebar(array(
+        'name' => 'Правый сайтбар',
+        'before_widget' => '<div class="widget">',
+        'before_title' => '<h2 class="sidebar-header">',
+        'after_title' => '</h2><div class="text">',
+        'after_widget' => '</div></div><hr />'
+    ));
+
+}

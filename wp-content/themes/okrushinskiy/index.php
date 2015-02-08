@@ -408,69 +408,7 @@
 <!--</body>-->
 <!--</html>-->
 <?php get_header();?>
-<div id="envelope">
-    <script language="javascript" type="text/javascript">
-        if (jQuery(document).width() >= 1300)
-            jQuery('#envelope').css('width', '1279px');
-    </script>
-
-    <div id="head">
-        <div id="toplinks">
-            <a href="http://www.cpk.ua/ru/"><img src="http://www.cpk.ua/templates/default/images/home.png" alt=""
-                                                 width="19" height="19"></a>
-            <a href="http://www.cpk.ua/ru/search/"><img src="http://www.cpk.ua/templates/default/images/search.png"
-                                                        alt="" width="19" height="19"></a>
-            <a href="http://www.cpk.ua/ru/contacts/"><img src="http://www.cpk.ua/templates/default/images/contacts.png"
-                                                          alt="" width="19" height="19"></a>
-            <a href="http://www.cpk.ua/ru/sitemap/"><img src="http://www.cpk.ua/templates/default/images/sitemap.png"
-                                                         alt="" width="19" height="19"></a>
-        </div>
-        <div id="logo"><a href="http://www.cpk.ua/ru/"><img src="http://www.cpk.ua/templates/default/images/logo.png"
-                                                            alt="Центр правового консалтинга (ЦПК) | Юристы и Адвокаты в Киеве"
-                                                            width="281" height="157"></a></div>
-        <div valign="right" style="position:absolute; top:0; right:0; width:0%; z-index:1;">
-            <div style="margin:68px 50px 0 -180px; z-index:2;"><a href="http://www.cpk.ua/ru/contacts/"><img
-                        src="http://www.cpk.ua/templates/default/images/contact.png" alt="" width="167" height="82"></a>
-            </div>
-        </div>
-        <div id="title">
-            <script language="javascript" type="text/javascript">
-/*
-                var flash = AC_FL_RunContent(
-                    'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0',
-                    'width', '100%',
-                    'height', '78',
-                    'src', 'http://www.cpk.ua/templates/default/swf/title',
-                    'quality', 'high',
-                    'pluginspage', 'http://www.macromedia.com/go/getflashplayer',
-                    'align', 'left',
-                    'play', 'true',
-                    'loop', 'true',
-                    'scale', 'noscale',
-                    'wmode', 'transparent',
-                    'devicefont', 'false',
-                    'id', 'logo-',
-                    'bgcolor', '#000000',
-                    'name', 'logo-',
-                    'menu', 'false',
-                    'allowFullScreen', 'false',
-                    'allowScriptAccess', 'sameDomain',
-                    'movie', 'http://www.cpk.ua/templates/default/swf/title',
-                    'FlashVars', 'title_img=' + encodeURIComponent('Центр правового консалтинга')
-                );
-                document.write(flash); //end AC code
-*/
-            </script>
-        </div>
-        <div id="langs">
-            <a href="http://www.cpk.ua/en/">Eng</a>
-            <a href="http://www.cpk.ua/fr/">Fr</a>
-            <a href="http://www.cpk.ua/pl/">Pl</a>
-            <a href="http://www.cpk.ua/ru/" class="active">Рус</a>
-            <a href="http://www.cpk.ua/uk/">Укр</a>
-        </div>
-    </div>
-    <div id="middle">
+<div id="middle">
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td id="left">
@@ -579,8 +517,7 @@
                                     'allowScriptAccess', 'sameDomain',
                                     'movie', 'http://www.cpk.ua/templates/default/swf/palm'
                                 );
-                                document.write(flash); //end AC code
--->                            </script>
+                                document.write(flash); //end AC code</script>-->
                         </div>
                     </div>
                     <div id="search">

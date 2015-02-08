@@ -1,7 +1,8 @@
-
 <?php get_header(); ?>
 <?php get_sidebar(); ?>
-
+    <ul class="breatcrubs">
+<!--        --><?php //the_breadcrumb()?>
+    </ul>
     <!-- Content -->
     <div id="content">
         <?php if (have_posts()) : ?>
